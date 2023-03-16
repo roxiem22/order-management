@@ -14,7 +14,7 @@ public class ConnectionFactory {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DBURL = "jdbc:mysql://localhost:3306/shop";
     private static final String USER = "root";
-    private static final String PASS = "ROX22NOV2001.UTCLUJ";
+    private static final String PASS = "admin";
 
     private static ConnectionFactory singleInstance = new ConnectionFactory();
 /* Clasa ConnectionFactory realizeaza conexiunea la baza de date folosind o singura instanța de obiect Connection, prin implementarea modelului arhitectural Singleton Pattern. Prin clasa de connection se realizeaza conectarea cu baza de datele si toate informatiile deja introduse.*/
